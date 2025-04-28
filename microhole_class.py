@@ -64,4 +64,4 @@ class Microhole:
 fov1_path = r"Z:\Users\CHENDAV\nikon_confocal\Calcin_Dextran_CAAX_RFP_20250410\fov01_MIP_6h_channels1and2_TCYX.tif"
 fov1 = Microhole(fov1_path, 0.646)  # Assuming 0.646 microns per pixel
 
-fov1.attach_circle_automatically(0, 450)  # Channel 1, radius 450 microns
+fov1.attach_circle_automatically(0, 450)  # Channel 0, radius 450 microns

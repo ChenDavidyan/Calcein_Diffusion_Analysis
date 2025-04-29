@@ -163,5 +163,5 @@ if __name__ == "__main__":
     center, radius_um = fov1.attach_circle_manually(channel_index=0)
     print(f"Circle center: {center}, radius: {radius_um:.2f} μm")
 
-    border_center, border_radius_um = fov1.attach_border_manually(channel_index=0)
-    print(f"Border center: {border_center}, radius: {border_radius_um:.2f} μm")
+    # border_center, border_radius_um = fov1.attach_border_manually(channel_index=0)
+    # print(f"Border center: {border_center}, radius: {border_radius_um:.2f} μm")
